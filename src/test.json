@@ -1,0 +1,34 @@
+{
+    "devices": [
+        {
+            "name": "Dev 1",
+            "port": "COM4",
+            "commType": "serial",
+            "commParams": {
+                "baud": 9600,
+                "data": 8,
+                "parity": "n",
+                "stop": 1
+            }
+        },
+        {
+            "name": "Dev 2",
+            "port": "COM5",
+            "commType": "serial",
+            "commParams": {
+                "baud": 9600,
+                "data": 8,
+                "parity": "n",
+                "stop": 1
+            }
+        }
+    ],
+    "testList": [{
+        "name": "wireless",
+        "type": "stress",
+        "parameters": [
+            100,
+            2
+        ]
+    }]
+}
